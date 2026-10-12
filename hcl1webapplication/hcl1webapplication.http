@@ -1,0 +1,6 @@
+@hcl1webapplication_HostAddress = http://localhost:5188
+
+GET {{hcl1webapplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
